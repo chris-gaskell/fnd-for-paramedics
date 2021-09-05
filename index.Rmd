@@ -142,7 +142,7 @@ background-size: contain
 .red[**Note**:]Headings are internal links.
 
 This presentation is also available as a
-<a href="https://chris-gaskell.github.io/uos-sced/output/index.pdf">pdf</a> `r icons::icon_style(icons::fontawesome("file-pdf", style = "solid"), scale = 1.5, fill = "black")`
+<a href="https://github.com/chris-gaskell/fnd-for-paramedics/blob/main/output/index.pdf">pdf</a> `r icons::icon_style(icons::fontawesome("file-pdf", style = "solid"), scale = 1.5, fill = "black")`
 ]
 
 ---
