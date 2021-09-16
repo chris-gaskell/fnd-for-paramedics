@@ -1170,7 +1170,7 @@ class: top, left
 ---
 
 ```{r echo=F}
-tweet_embed(tweet_url("chrisgaskell92", "1422124260844138501"), theme = "dark")
+tweet_embed(tweet_url("chrisgaskell92", "1422124260844138501"), theme = "dark", maxwidth = 700)
 
 ```
 ---
