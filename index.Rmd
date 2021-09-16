@@ -19,6 +19,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      beforeInit: "https://platform.twitter.com/widgets.js"
+
 ---
 class: inverse, left,
 background-image: url(https://images.unsplash.com/photo-1607688387751-c1e95ae09a42?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODF8fGJyYWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
@@ -36,6 +38,7 @@ library(ggExtra)
 library(xaringanthemer)
 library(RColorBrewer)
 library(vembedr)
+library(tweetrmd)
 
 xaringanExtra::use_editable()
 xaringanExtra::use_panelset()
@@ -1166,7 +1169,22 @@ class: top, left
 
 ---
 
+```{r echo=F}
+tweet_embed("https://twitter.com/alexpghayes/status/1211748406730706944",
+            theme = "dark")
+
+tweet_embed(tweet_url("alexpghayes", "1211748406730706944"), theme = "dark")
+
+```
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">When I try to become acquainted with a new (to me) <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> package, I prefer to read ___________</p>&mdash; J🎃n🎃 C👻rr🎃ll (@carroll_jono) <a href="https://twitter.com/carroll_jono/status/969442252610191361?ref_src=twsrc%5Etfw">March 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+
 class: inverse, middle, center
 # Finished
+
+
 
 
