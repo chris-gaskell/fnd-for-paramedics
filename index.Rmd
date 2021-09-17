@@ -39,6 +39,7 @@ library(xaringanthemer)
 library(RColorBrewer)
 library(vembedr)
 library(tweetrmd)
+library(emo)
 
 xaringanExtra::use_editable()
 xaringanExtra::use_panelset()
@@ -440,18 +441,31 @@ class: top
 
 .left[
 .pull-left[
-Recognised as early as the <a href="https://psychiatryonline.org/doi/full/10.1176/appi.ajp-rj.2019.150111">18th Century</a>
+- 400 BC - Hippocrates -> "hysteria" (hyster = uterus).
+- Pre-1700s - Considered demonic possession/witchcraft `r emo::ji("witch")`
+- Late-1700s - Recognised as not gender exclusive `r emo::ji("gender")`
+- 1800s - Charcott -> "hysteria major" (functional seizures).
+- 1890s - Freud -> "conversion disorder".
+- 1910s - Studied prominently  (First World War -> ‘shell shock’).
+- 1980s - Hysteria retired as a term within the US.
 
-Studied prominently after the First World War and the recognition of ‘shell shock’
-
-Freud & Charcott
 ]]
 
 .right[
 .pull-right[
-`r embed_youtube("IWHbF5jGJY0", width = 350, height = 500, allowfullscreen = TRUE) %>% use_start_time("0m00s")`
+`r embed_youtube("IWHbF5jGJY0", width = 400, height = 500, allowfullscreen = TRUE) %>% use_start_time("0m00s")`
 ]
 ]
+
+
+???
+- 400 BC - Hippocrates coined "hysteria" (hyster = uterus). As an affliction considered to be exclusive to women.
+- Pre-1700s - Considered to be a form of demonic possession/witchcraft. Outside of the understading of the medical frameworks of the time.
+- Late-1700s - Recognition that it presents in both men and women.
+- 1800s - Charcott came up with the term "hysteria major" as a term to describe describe functional seizures.
+- 1890s - Freud coined "conversion disorder".
+- 1910s - Studied prominently after the First World War and the recognition of ‘shell shock’.
+- 1980s - Hysteria retired as a term within the US.
 
 ---
 exclude: true
@@ -834,13 +848,6 @@ class: top, left
     &mdash; People living with non-epileptic attacks</cite>  </figcaption>
 </figure>
 
-
----
-exclude: true
-https://www.youtube.com/watch?v=olU3onRPqYs = really good video from MGH on patient journey of diagnosis and MDT treatment.
-
-https://www.youtube.com/watch?v=bfLv5jMJlOw = history of FND 4:30-7:30. Also good general lecture of FND.
-
 ---
 name: therapeutic-slide
 class: inverse, middle, center
@@ -1046,7 +1053,23 @@ class: top, left
 ---
 name: resources-slide
 class: middle, center, inverse
-# Resources
+# Resources & Acknowledgments
+
+---
+class: top, left, inverse
+
+.pull-left-narrow[
+### Acknowledgments
+
+- A big thank you to all of the Twitter community who contributed to this teaching through their very helpful suggestions.
+- Many of these individuals were people who experience functional symptoms.]
+
+.pull-right-wide[
+```{r echo=F}
+tweet_embed(tweet_url("chrisgaskell92", "1422124260844138501"), theme = "light", maxwidth = 700)
+```
+]
+
 
 ---
 class: top, left
@@ -1169,15 +1192,11 @@ class: top, left
 
 ---
 
-```{r echo=F}
-tweet_embed(tweet_url("chrisgaskell92", "1422124260844138501"), theme = "dark", maxwidth = 700)
-
-```
----
-
 class: inverse, middle, center
 # Finished
 
+---
+exclude: true
+https://www.youtube.com/watch?v=olU3onRPqYs = really good video from MGH on patient journey of diagnosis and MDT treatment.
 
-
-
+https://www.youtube.com/watch?v=bfLv5jMJlOw = history of FND 4:30-7:30. Also good general lecture of FND.
