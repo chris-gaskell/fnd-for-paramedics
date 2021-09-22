@@ -316,6 +316,7 @@ content: "";
 .my-red     { color:  var(--my-red) }
 .my-coral   { color:  var(--my-coral) }
 .my-pink    { color:  var(--my-pink) }
+.my-pink1 {color: #c09090}
 .my-hot-pink { background-color: #ff69b4 }
 .my-hot-red { background-color: #f3172d }
 .my-hot-blue { background-color: var(--my-blue)}

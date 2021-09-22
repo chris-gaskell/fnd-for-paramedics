@@ -59,7 +59,7 @@ xaringanExtra::use_share_again()
 
 .pull-left[
 .center[.large[
-An introduction to working with functional seizures and other functional neurological presentations
+An introduction to working with functional seizures (NEAD) and other functional neurological presentations
 
 *for:*
 
@@ -155,8 +155,8 @@ background-size: contain
 [**Resources**](#resources-slide)
 ]
 
-.footnote[.DarkBlue[**Note**:] Headings are internal links.]
-]
+.footnote[Note: **Headings** are internal links.
+]]
 
 .pull-right[
 .footnote[
@@ -184,17 +184,18 @@ background-size: .3
 --
 
 .pull-left[
-`r embed_youtube("Dy3XLo7dVQI", width = 500, height = 300) %>% use_start_time("1m00s")`
+`r embed_youtube("Dy3XLo7dVQI", width = 475, height = 275) %>% use_start_time("1m00s")`
 Video by Massachussets General Hospital
 ]
 ---
 
 # Definitions: FND
 
-- .blue[Functional Neurological Symptoms Disorder] was added as an inclusion term to Conversion Disorder in the DSM-5, which was published in May of 2013.
-- A patient can be diagnosed with FND if they have motor and/or sensory findings providing:
-  - “evidence of incompatibility between the symptom and recognized neurological or medical conditions” (American Psychiatric Association, 2013, Stone et al., 2010b).
-- The symptom must impair social and/or occupational functioning or lead individuals to seek a medical opinion. There are no duration or severity criteria or explicit rules for exclusion based on additional symptoms.
+- .blue[Functional Neurological Symptoms Disorder] added as an inclusion term to Conversion Disorder in the DSM-5 (2013).
+  - Diagnosis requires FND motor and/or sensory findings.
+  - “evidence of incompatibility between the symptom and recognized neurological or medical conditions” (APA, 2013, Stone et al., 2010b).
+  - The symptoms must impair social and/or occupational functioning or lead individuals to seek a medical opinion.
+  - No duration or severity criteria, or explicit rules for exclusion based on additional symptoms.
 
 - .blue[Dissociative Neurological Symptom Disorder] the most recent term used in the ICD-11 (World Health Organization International Coding manual) despite pushback from FND Hope and leading FND specialists around the world.
 
@@ -247,7 +248,7 @@ Working in and then EAD service, the people that I see all experience some form 
 # Definitions: Non-epileptic seizures
 
 - One manifestation or constellation of FND.
-- In DSM-5, psychogenic nonepileptic seizures are classified as a form of conversion disorder, or functional neurological symptom disorder, with the term "functional" referring to an impairment of normal bodily functioning.
+- In DSM-5, functional seizures are classified as a form of conversion disorder, or functional neurological symptom disorder, with the term "functional" referring to an impairment of normal bodily functioning.
 - Disruption of usually integrated functions of consciousness, memory, id, or perception (amnesia, fugue, dissociative id disorder, depersonalisation disorder) (Goldstein et al, 2000)
 
 --
@@ -258,7 +259,7 @@ People with NEAD experience **episodes of temporary loss of control and/ or awar
 # Data for Table
     SympomDomains <- c("Movement",    "Senses",      "Awareness & thinking skills")
     Examples <- c("Shaking; Difficulty controlling movement; Falls",
-                  "Challenging to senses, Feeling numb",     " Feeling confused; Distant; Disorientated; Blacking out")
+                  "Challenges to senses, Feeling numb",     " Feeling confused; Distant; Disorientated; Blacking out")
     SummaryTable <- data.frame(SympomDomains, Examples)
 # Table
  kableExtra::kable(SummaryTable, booktabs = TRUE, escape = FALSE, longtable = FALSE, align = "l",
@@ -280,20 +281,7 @@ Taken from: <a href="https://www.researchgate.net/publication/323856711_2018_ESC
 ???
 This is a diagram from the… When thinking about non-epileptic or functional seizures we are often referring to people experiencing a temporary loss of consciousness. Most pacifically on this diagram we are thinking about the psychodynamic causes of transient loss of consciousness.
 
----
-class: top, left
 
-# Inter and Intra-variability
-
-- Different people experience different symptoms (as illustrated in the co-occurance network in a previous slide).
-- Symptoms of non-epileptic attacks are not always the same.
-- Symptoms change over time
-  - For example, some patients with functional seizures may initially experience  panic attacks, but over time, symptoms of anxiety may diminish and manifesta- tions of dissociation increase (Goldstein and Mellers, 2006).
-
-.Large[.red[Gregg do you have any further info/papers?]]
-
-???
-As mentioned before the symptoms of non-epileptic attacks or other forms of functional disorder can look very different from one person to the next.In addition, the nature of symptoms can change dramatically for each person over time.For example so I may start off with one dominant form of symptom, but overtime over symptoms become more or less apparent. One person that I am working with currently, when he will affect the service his dominant symptom was functional seizures. But by the time his appointment came round he had developed a functional speech disorder. This caused him to hijacking in his neck and increased effort to speak.
 
 ---
 exclude: true
@@ -347,17 +335,17 @@ class: top, centre
 
 # How common is NEAD?
 
-**Approximately:**
+**Statistics:**
 
-- 20,000 people in the UK have this diagnosis – but there are likely to be many more.
-- 1 out of every 5 people referred to a first seizure clinic go on to have a diagnosis of NEAD.
-- NEAD accounts for up to 50% of patients brought to hospital with suspected ‘status epilepticus’. Still likely to be an under estimate.
+- Approximately 20,000 people in the UK have a diagnosis (likely to be many more).
+- NEAD accounts for nearly 20% of presentations to seizure clinics
+<a href="https://www.sciencedirect.com/science/article/pii/S1059131108000022"> (Angus-Leppan 2008) </a>
+- NEAD accounts for a proportion of patients brought to hospital with suspected ‘status epilepticus’.
+- Rrecent estimate of prevalence (Norway) = 23.8 per 100,000<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949"> (Villagrán 2021) </a>
 
-(Howell, Owen, Chadwick, 1989; Kotsoupoulos et al., 2003, Rawlings, Brown & Reuber, 2017)
-
-A recent estimate of prevalence from Norway found prevalence to be 23.8 per 100,000<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949"> (Villagrán 2021) </a>
-
+.footnote[
 **Note:** It is hard to accurately quantify prevalence rates in non-epileptic attacks due to common diagnostic delay and patients being lost to follow-up.
+]
 
 ???
 - Because of the complexities around diagnosis, this 20,000 person estimate is likely to be a underestimation.
@@ -367,18 +355,21 @@ A recent estimate of prevalence from Norway found prevalence to be 23.8 per 100,
 # Who is most likely to be affected?
 
 1. **Age:**
-Young people (15–19) may actually be more at risk and the point when onset is most likely. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán (2021) </a> - 59.5 per 100,000.
-1. **Gender** Gender disparities are far less evident in younger and older cohorts (e.g.,
+Young people (15–19) has been shown to be the period with greatest rate of onset. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán (2021) </a> - 59.5 per 100,000.
+1. **Gender** Female preponderance however disparities less evident in younger/older cohorts (e.g.,
 <a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens (2021) </a>
 1. **Epilepsy:**
 High rate of comorbidity.
 1. **Psychiatric comorbdity**
-  1. Anxiety and depression = 
-  1. "Personality disorder" =
-  1. PTSD
-  1. Trauma
+  1. Anxiety and depression 
+  1. "Personality disorder"
+  1. PTSD/Trauma
+1. More likely to be white, employed and lower SES.
 
-.Large[.red[Gregg you got any good references/statistics?]]
+.footnote[
+**More information later on predisposing, precipitating and perpetuating factors.**
+ ]
+
 
 ???
 - Age: Generally consistent with Hansen 2020 pediatric paper which found that across pediatric populations incidence rates is highest in 16-17 years old. 
@@ -387,12 +378,15 @@ High rate of comorbidity.
 
 ---
 class: top, left
+background-image: url(files/img/pnes-types.png)
+background-position: 99% 50%
+background-size: 65% 65%
+
 # Diagnosis
 
-.pull-left[
-### How is it diagnosed?
-Diagnosis usually by a Neurologist or Neuropsychiatrist based on:
-
+.pull-left-narrow[
+Usually by a Neurologist or Neuropsychiatrist.
+.small[
 - Clinical history
 - Videos
 - Objective signs
@@ -400,15 +394,8 @@ Diagnosis usually by a Neurologist or Neuropsychiatrist based on:
 - EEG (electroencephalogram) 
 - ECG (electrocardiogram)
 - Videotelemetry
-]
+]]
 
-.pull-right[Journey to diagnosis can be
-.red[very long].
-Recent estimate of 3.2 years (although 48% in same year).
-
-![](files/img/pnes-types.png)
-
-]
 
 ???
 One of the key dilemmas facing this field is the obstacles to prompt and accurate diagnosis. Many professionals are simply unfamiliar with this condition, or maybe somewhat familiar but I'm confident to make accurate diagnosis.
@@ -435,27 +422,34 @@ New paper demonstrating rates of people diagnosed and treated for status epilept
 Among 1210 patients diagnosed and treated as status epilepticus, 980 were aged eight years or older. Of these patients, 79 (8.1%) were discharged with a final diagnosis of pPNES. Of these, 55 (70%) were female and the mean age was 32.6 years (SD: 15.9 years), ranging from eight to 84 years.
 
 ---
+# Misdiagnosis & delayed diagnosis
+
+.pull-left[Journey to diagnosis can be
+.red[very long].
+Recent estimate of 3.2 years (although 48% in same year).]
+
+.pull-right[
+![](files/img/getting-label.png)]
+
+---
 class: top
 
 # Not a New Condition
 
-.left[
-.pull-left[
-- 400 BC - Hippocrates -> "hysteria" (hyster = uterus).
-- Pre-1700s - Considered demonic possession/witchcraft `r emo::ji("witch")`
-- Late-1700s - Recognised as not gender exclusive `r emo::ji("gender")`
-- 1800s - Charcott -> "hysteria major" (functional seizures).
-- 1890s - Freud -> "conversion disorder".
-- 1910s - Studied prominently  (First World War -> ‘shell shock’).
-- 1980s - Hysteria retired as a term within the US.
-
-]]
-
-.right[
-.pull-right[
+.pull-left-narrow[
 `r embed_youtube("IWHbF5jGJY0", width = 400, height = 500, allowfullscreen = TRUE) %>% use_start_time("0m00s")`
 ]
-]
+
+.left[
+.pull-right-wide[
+- **400 BC** - Hippocrates -> "hysteria" (hyster = uterus).
+- **Pre-1700s** - Considered demonic possession/witchcraft `r emo::ji("mage")`
+- **Late-1700s** - Recognised as not gender exclusive `r emo::ji("female sign")``r emo::ji("male sign")`
+- **1800s** - Charcott -> "hysteria major" (functional seizures).
+- **1890s** - Freud -> "conversion disorder".
+- **1910s** - Studied prominently  (First World War -> ‘shell shock’).
+- **1980s** - Hysteria retired as a term within the US.
+]]
 
 
 ???
@@ -483,11 +477,10 @@ background-size: 40% 30%
 
 # Clearing up confusion
 
-.pull-left-narrow[
+.pull-left[
 
 Many terms used to describe the **same experience**.
 
-.small[
 - Non-epileptic attacks
 - Psychogenic seizures
 - Psychogenic non-epileptic seizures (PNES) 
@@ -495,7 +488,7 @@ Many terms used to describe the **same experience**.
 - Conversion disorder
 - Functional seizures
 - Psychological seizures
-- Pseudo-seizures]]
+- Pseudo-seizures]
 
 ???
 I think that many people who experience functional symptoms would feel the slide is really important. The language that gets used in referring to these experiences can be highly variable. As you can see on the slide there are a range of different terms which have all been used to describe a very similar experience or set of symptoms.
@@ -506,14 +499,17 @@ And this is a topic of high debate currently. Terms which are generally less hel
 
 --
 
-.pull-right-wide[
-Some terms are more/less .red[**harmful**] than others.
+.pull-right[
+Some terms more .red[**harmful and prejorative**].
 
-Debate and lack of consensus regarding preferred term (see <a href="https://www.sciencedirect.com/science/article/pii/S1059131103000554">Stone et al., [2003]</a>,
-<a href="https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf">Barron [2019]</a>, FND Society [2020])., , and
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/">La France [2010]</a>).
+Debate regarding preferred term (see 
+<a href="https://www.sciencedirect.com/science/article/pii/S1059131103000554">Stone et al., 2003 </a>,
+<a href="https://www.seizure-journal.com/article/S1059-1311(19)30337-1/pdf">Barron., 2019</a>,
+FND Society., 2020, and
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2906405/">La France., 2010</a>).
 
-We refer to these events as.red[**“Episodes”**] (but are willing to be led by the individual) and our service uses .red[**Non-epileptic Attack Disorder (NEAD)**]].
+Be led by the individual.
+]
 
 ---
 class: top, left
@@ -540,7 +536,6 @@ background-size:
 The bar chart that you can see shows the preference ratings of the commonly used terms in order to show rank. The terms are the score so a low preference rating is desirable and high preference rating is undesirable. As you can see hysteria pseudoseizures, Somatoform disorder are all less preferred. This is not surprising given the history of stigma and pejorative attitudes towards these terms.
 
 ---
-class: top, left
 
 # Not to be confused with
 
@@ -552,12 +547,21 @@ class: top, left
 
 .red[Do not mistake NEAD symptoms for factitious/malingering just because it doesn’t fit with what you know of epileptic seizures]
 
-.red[Gregg paper on health professionals/neurologists perception of the role of alcohol.]
 
 ???
 One of the few things which I really hope that people take away from this teaching is that the symptoms and experience of functional symptoms are not under the conscious control of volition of the person experiencing them.
 This is really important because there is a history of people with FND not being believed or been described as "faking".
 These two conditions are different from FND And do you have some level of conscious control. While I am sure that there are a number of people with functional symptoms which may in fact be lingering, I truly believe that this is a very very very small minority.
+
+---
+class: top, left
+background-image: url(files/img/suspect-causes.png)
+background-position:
+background-size: contain
+
+???
+Whitehead et al., 2012
+Asked neurological and psychiatrists what they thought caused epilepsy and NEAD
 
 ---
 
@@ -604,10 +608,6 @@ Here are a series of videos of people experiencing functional seizures.
 ---
 class: top, inverse
 # NEAD service patients
-
-CG to show video of NEAD service patients.
-
-.Large[.orange[Gregg - Do you know any good videos of functional seizures or other functional presentations? Some of the ones on the previous slides aren't great.]]
 
 ???
 Here is a video of a patient I am working with Who has kindly offered to let me show this video to you all.
@@ -693,6 +693,21 @@ In the top left quadrant you have a scenari whereby you might have a biological 
 
 ---
 class: top, left
+background-image: url(files/img/formulation.png)
+background-position: 50% 100%
+background-size: 80% 50%
+
+# Other relevant factors?
+
+- No single factor explaining functional seizures across all patients.
+- People have often (not always) had previous life adversity and stressful life events (e.g., abuse, trauma or neglect).
+- Patients can be experiencing acute and ongoing stress, this could also be related to dysfunctional relationships and attachment difficulties.
+- Formultion figure from
+<a href="https://pubmed.ncbi.nlm.nih.gov/19853215/">Reuber, 2009</a>
+
+
+---
+class: top, left
 # What is happening during NEAD?
 
 .pull-left[
@@ -748,64 +763,93 @@ class: inverse, middle, center
 
 ---
 class: top, left
+background-image: url(files/img/portrait.png)
+background-position: cover
+background-size: 60% 100% 
+
+???
+This is a painting from someone who NEAD  - this image is a reflection of what she felt like before she attended therapy for NEAD. 
+
+---
+class: top, left
+background-image: url(files/img/variability.png
+background-position: 50% 95%
+background-size: 90% 35%
+
+# Inter and Intra-variability
+
+- Different people experience different symptoms (illustrated in co-occurance network).
+- Symptoms of functional seizures are not always the same.
+- Symptoms change over time: example., patients initially experience panic attacks, but over time, symptoms of anxiety may diminish and manifestations of dissociation and functional seizures increase (Goldstein and Mellers, 2006).
+- Table below taken from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+
+
+???
+Reuber et al., 2011 asked 100 people with NEAD about their experiences associated with the seizures. As you can see seizure events were not always experienced the same by an individual and there was considerable variation between patients. 
+
+As mentioned before the symptoms of non-epileptic attacks or other forms of functional disorder can look very different from one person to the next.In addition, the nature of symptoms can change dramatically for each person over time.For example so I may start off with one dominant form of symptom, but overtime over symptoms become more or less apparent. One person that I am working with currently, when he will affect the service his dominant symptom was functional seizures. But by the time his appointment came round he had developed a functional speech disorder. This caused him to hijacking in his neck and increased effort to speak.
+
+---
+class: top, left
+background-image: url(files/img/triggers.png)
+background-position: 95% 65%
+background-size: 45% 50%
 
 # Triggers
 
-.small[
-A study(N = 100 patients) has shown considerable heterogeneity of triggers (Reuber et al., 2011).
-- Small minority (10%) stated that they were “always” aware of triggers
-- 57% were aware of triggers for some but not all
-- 31% claimed never to be aware of triggers
-- 43% of patients stated that their PNES “always” “come on out of the blue without warning,”;
-- Witnesses questioned in the same study reported being aware of seizure triggers more often than patients them- selves (Reuber et al., 2011)
+.pull-left[
+<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+found considerable heterogeneity of triggers.
+- Small minority (10%) were “always” aware of triggers; 57% were aware of triggers for some but not all; 31% claimed never to be aware of triggers
+- 43% of patients stated that functional seizures “always” “come on out of the blue.
+- Witnesses questioned in the same study reported being aware of seizure triggers more often than patients.
+- plot is unpublished data
+]
+
+
+
+???
 - Most commonly perceived triggers were:
   - Emotional states (50%: feeling stressed, upset, anxious, aroused, neglected, nonspecific unwell)
   - Bodily states (21%: illness, loss of sleep, feeling hot or cold, tiredness, pain, feeling dehydrated or exhausted after something energetic)
-  - External stimuli (9%: crowded places, flashing lights, black and white patterns, blue light, flashing lights, smoke / flames / dogs / household objects acting as traumatic reminders, sun on surface, neon lights)]
+  - External stimuli (9%: crowded places, flashing lights, black and white patterns, blue light, flashing lights, smoke / flames / dogs / household objects acting as traumatic reminders, sun on surface, neon lights)
 
-.Large[.red[Gregg to add information?]]
 
 ---
 class: top, left
+background-image: url(files/img/no-warning.png), url(files/img/warning-type.png)
+background-position: 95% 15%, 95% 90%
+background-size: 45% 40%, 45% 40%
 
 # Warnings
 
-The frequency with which prodromal or warning symptoms been self-reported in patient cohorts varies widely, between 24% and 92% (for review see Reuber & Rawlings)
-
-People are at times more aware of the physical warning signs as opposed to the emotional warning signs.
-
-"Willful submission" 
+.pull-left[
+- rates of prodromal/warning symptoms vary widely (24%-92%, see Reuber & Rawlings)
+- People are (at times) more aware of the physical warning signs as opposed to  emotional warning signs.
+- "Willful submission" 
 <a href = "https://jnnp.bmj.com/content/84/7/822.short?casa_token=sfClvFXXrjAAAAAA:bJvdFojchmiwqd82Tegqie4XnMndKlhs1_l1xAqwhSjmDaLNMCYAyMz1iVFIgqrW6dXODTAIvZU">(Stone & Carson, 2013)</a>. Although this does not mean the symptoms are intentional.
 
-.Large[.red[Gregg to add information?]]
+Plots taken from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1528-1167.2011.03162.x">Reuber et al., 2011</a>
+]
+
 
 ---
 class: top, left
+background-image: url(files/img/ictal.png), url(files/img/ictal2.png)
+background-position: 95% 15%, 95% 90%
+background-size: 45% 40%, 45% 40%
 
-# Experiences during the seizure
+# Experiences during
 
-- Tends to last longer than in epilepsy.
-- One study found that generalized tonic-clonic seizures lasted 50–92 seconds, whereas PNES lasted 20–805 seconds; Many PNES went on for more than 2 minutes (Gates et al., 1985).
-- PNES continuing for over 30 minutes (also called pseudostatus or PNES status) occur in about one-third of patientsm
-- More than one-quarter of patients diagnosed with PNES at epilepsy centers have received intensive care treatment for presumed status epilepticus at least once (Reuber et al., 2003).
+.pull-left[
+- Tends to last longer than in epilepsy (Gates et al., 1985).
+- functional seizures over 30 minutes occur in about one-third of patients.
+- More than one-quarter diagnosed with PNES received intensive care treatment for presumed status epilepticus at least once (Reuber et al., 2003).
+- Plots from Plug et al., 2009
+]
 
-.Large[.red[Gregg to add information?]]
-
----
-class: top, left
-
-# The aftermath
-
-- Patients often find it easier to feel the post-ictal symptoms.
-
-.Large[.red[Gregg to add information?]]
-
----
-class: top, left
-
-# Journey to diagnosis
-
-.Large[.red[Gregg to add information?]]
+???
+- One study found that generalized tonic-clonic seizures lasted 50–92 seconds (Gates et al., 1985). whereas PNES lasted 20–805 seconds; Many PNES went on for more than 2 minutes .
 
 ---
 class: top, left
@@ -847,6 +891,43 @@ class: top, left
   <figcaption>
     &mdash; People living with non-epileptic attacks</cite>  </figcaption>
 </figure>
+
+
+---
+class: top, left
+background-image: url(files/img/nead-epilepsy.png), url(files/img/nead-epilepsy2.png), url(files/img/nead-epilepsy3.png), url(files/img/nead-epilepsy4.png)
+background-position: 5% 10%, 5% 80%, 95% 10%, 95% 80%
+background-size: 45% 40%, 45% 40%, 45% 40%, 45% 40%
+
+.footnote[images via Reuber and Kurthen 2011 and Bell et al, 1998, and Kuyk et al., 1999]
+
+---
+class: top, left
+background-image: url(files/img/aftermath.png)
+background-position: 50% 85%
+background-size: 80% 60%
+
+# The aftermath
+
+- Patients often find it easier to feel the post-ictal symptoms.
+- Plot taken from...?
+
+
+---
+class: top, left
+
+# Experiences of professionals
+
+.pull-left[
+I wonder if we could add in a slide about how they make healthcare professionals feel – this is from a review I did and as you can see the uncertainty professionals feel about NEAD was seen in all themes. Could help plug people to do the questionnaire i.e. the voices of emergency staff are not heard in the literature. 
+
+I also wonder if there is something that we could add in about patients often having negative experiences from emergency staff/A&E and the impact this can have on alliance, but we would need to discuss this very sensitively.
+]
+
+.pull-right[
+![](files/img/research-areas.png)
+]
+
 
 ---
 name: therapeutic-slide
@@ -1093,16 +1174,16 @@ class: top, left
 
 .pull-right-wide[
 ## FND Hope
-- h
-- j
+- FND charity
+- Lots of helpful information and resources for patients.
 
 ## SRFT NEAD service
-- 
-- 
+- NEAD service website
+- Information and clinical resources for patients.
 
 ## FND Society
-- 
-- 
+- Professional network for FND
+- High quality teaching and educational material.
 ]
 
 ---
@@ -1127,12 +1208,12 @@ class: top, left
 
 .pull-right-wide[
 ## FND Action
-- 
+- FND charity
 - 
 
 ## Neuro symptoms
-- 
-- 
+- Informational website for patients and professions
+- Lots of high quality resources and information sheets
 
 ## Non-epileptic attacks
 - 
@@ -1159,14 +1240,12 @@ class: top, left
 
 .pull-right-wide[
 ## In Our Experiences
+- Book collating professional experiences of working/supporting people with functional seizures.
 - 
-- 
--
 
 ## In Our Words
+- Book collating patient experiences of what it is like to live with functional seizures.
 - 
-- 
--
 
 ]
 
