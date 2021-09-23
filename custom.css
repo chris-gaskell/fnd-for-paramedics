@@ -127,7 +127,7 @@ hr {
 
 /*-- Headings (inverse) --*/
 .inverse h1, .inverse h2, .inverse h3 { color: white; }
-
+.inverse h4 { color: var(--PaleGrey); }
 .inverse a {
   color:              var(--PaleGrey);
   border-bottom:      1px solid white;

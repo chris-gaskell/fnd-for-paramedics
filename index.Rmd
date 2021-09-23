@@ -75,12 +75,12 @@ https://fnd-for-paramedics.netlify.app]
 class: inverse, center, middle
 
 .pull-left[
-<img style="border-radius: 50%;" src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
+## <img style="border-radius: 50%;" alt = "presenter 1", src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
 ## Chris Gaskell
 
 ### Clinical Psychologist
 
-.fade[Salford Royal NHS Foundation Trust]
+#### .fade[Salford Royal NHS Foundation Trust]
 
 [`r icons::icon_style(icons::fontawesome("twitter"), scale = 1.5)` ](https://twitter.com/chrisgaskell92)
 [`r icons::icon_style(icons::fontawesome("github"), scale = 1.5)`](https://github.com/chris-gaskell)
@@ -90,12 +90,12 @@ class: inverse, center, middle
 ]
 
 .pull-right[
-<img style="border-radius: 50%;" src="https://i1.rgstatic.net/ii/profile.image/796176408383488-1566834656048_Q512/Gregg-Rawlings-3.jpg" width="180px"/>
+<img style="border-radius: 50%;" alt = "presenter 2" src="https://i1.rgstatic.net/ii/profile.image/796176408383488-1566834656048_Q512/Gregg-Rawlings-3.jpg" width="180px"/>
 ## Gregg Rawlings
 
 ### Clinical Psychologist
 
-.fade[Nottingham Trent University]
+#### .fade[Nottingham Trent University]
 
 [`r icons::icon_style(icons::fontawesome("envelope"), scale = 1.5)`](grawllings@sheffield.ac.uk)
 [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Gregg-Rawlings-3)
