@@ -59,7 +59,7 @@ xaringanExtra::use_share_again()
 
 .pull-left[
 .center[.large[
-An introduction to working with functional seizures (NEAD) and other functional neurological presentations
+An introduction to working with functional seizures (i.e., NEAD) and other functional neurological presentations
 
 *for:*
 
@@ -191,7 +191,7 @@ Video by Massachussets General Hospital
 
 # Definitions: FND
 
-- .blue[Functional Neurological Symptoms Disorder] added as an inclusion term to Conversion Disorder in the DSM-5 (2013).
+- .blue[Functional Neurological Symptoms Disorder:] added as an inclusion term to Conversion Disorder in the DSM-5 (2013).
   - Diagnosis requires FND motor and/or sensory findings.
   - “evidence of incompatibility between the symptom and recognized neurological or medical conditions” (APA, 2013, Stone et al., 2010b).
   - The symptoms must impair social and/or occupational functioning or lead individuals to seek a medical opinion.
@@ -341,7 +341,7 @@ class: top, centre
 - NEAD accounts for nearly 20% of presentations to seizure clinics
 <a href="https://www.sciencedirect.com/science/article/pii/S1059131108000022"> (Angus-Leppan 2008) </a>
 - NEAD accounts for a proportion of patients brought to hospital with suspected ‘status epilepticus’.
-- Rrecent estimate of prevalence (Norway) = 23.8 per 100,000<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949"> (Villagrán 2021) </a>
+- Recent estimate of prevalence (Norway) = 23.8 per 100,000<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949"> (Villagrán 2021) </a>
 
 .footnote[
 **Note:** It is hard to accurately quantify prevalence rates in non-epileptic attacks due to common diagnostic delay and patients being lost to follow-up.
@@ -357,7 +357,7 @@ class: top, centre
 1. **Age:**
 Young people (15–19) has been shown to be the period with greatest rate of onset. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/epi.16949">Villagrán (2021) </a> - 59.5 per 100,000.
 1. **Gender** Female preponderance however disparities less evident in younger/older cohorts (e.g.,
-<a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens (2021) </a>
+<a href="https://jnnp.bmj.com/content/early/2021/08/16/jnnp-2021-326443.abstract">Jungilligens, 2021 </a>)
 1. **Epilepsy:**
 High rate of comorbidity.
 1. **Psychiatric comorbdity**
