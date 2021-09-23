@@ -112,25 +112,15 @@ background-size: contain
 
 --
 
-`r icons::icon_style(icons::fontawesome("frown-open", style = "solid"), scale = 1.5, fill = "white")` .Large[Emotionally pertinent areas]
-
-???
-The content of what we are going to be discussing maybe distressful for some people here. We do not personally know what affiliations you have to this area so please feel free to look after yourself in anyway you need to.
-
---
-
-`r icons::icon_style(icons::fontawesome("video", style = "solid"), scale = 1.5, fill = "white")` .Large[Potentially distressing videos]
-
-???
-I am going to be showing some videos of people experiencing functional symptoms and who are also experiencing acute distress, if anyone would sooner not watch these videos then you are welcome to turn off your screens while we are watching them. I'll give people a warning when there is going to be a video and then you can decide for yourself.
-
---
-
-`r icons::icon_style(icons::fontawesome("hand-paper", style = "solid"), scale = 1.5, fill = "white")` .Large[Not about changing protocol]
+- .Large[Emotionally pertinent areas] `r icons::icon_style(icons::fontawesome("frown-open", style = "solid"), scale = 1.5, fill = "white")` 
+- .Large[Potentially distressing videos] `r icons::icon_style(icons::fontawesome("video", style = "solid"), scale = 1.5, fill = "white")`
+- .Large[Not about changing protocol] `r icons::icon_style(icons::fontawesome("hand-paper", style = "solid"), scale = 1.5, fill = "white")`
 
 
 ???
-We are not here to Change your acute management of this condition. Neither of us are medically trained, so we will not know how to respond to someone experiencing a seizure. Instead, what is teaching is far is to give you all some understanding of what the condition is, and to discuss some of the challenges of living with this condition.
+- The content of what we are going to be discussing maybe distressful for some people here. We do not personally know what affiliations you have to this area so please feel free to look after yourself in anyway you need to.
+- I am going to be showing some videos of people experiencing functional symptoms and who are also experiencing acute distress, if anyone would sooner not watch these videos then you are welcome to turn off your screens while we are watching them. I'll give people a warning when there is going to be a video and then you can decide for yourself.
+- We are not here to Change your acute management of this condition. Neither of us are medically trained, so we will not know how to respond to someone experiencing a seizure. Instead, what is teaching is far is to give you all some understanding of what the condition is, and to discuss some of the challenges of living with this condition.
 
 
 ---
