@@ -1,5 +1,5 @@
 ---
-title: "Understanding Non-Epileptic Attack Disorder"
+title: "FND for Paramedics"
 subtitle: "Undergraduate Paramedic Teaching"
 author: false
 institute: false
@@ -75,7 +75,7 @@ https://fnd-for-paramedics.netlify.app]
 class: inverse, center, middle
 
 .pull-left[
-## <img style="border-radius: 50%;" alt = "presenter 1", src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
+# <img style="border-radius: 50%;" alt = "Picture of presenter 1", src="https://pbs.twimg.com/profile_images/1434417640920002563/ZS62zhXl_400x400.jpg" width="180px"/>
 ## Chris Gaskell
 
 ### Clinical Psychologist
@@ -89,8 +89,9 @@ class: inverse, center, middle
 [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Chris-Gaskell-2)
 ]
 
+
 .pull-right[
-<img style="border-radius: 50%;" alt = "presenter 2" src="https://i1.rgstatic.net/ii/profile.image/796176408383488-1566834656048_Q512/Gregg-Rawlings-3.jpg" width="180px"/>
+# <img style="border-radius: 50%;" alt = "Picture of presenter 2" src="https://i1.rgstatic.net/ii/profile.image/796176408383488-1566834656048_Q512/Gregg-Rawlings-3.jpg" width="180px"/>
 ## Gregg Rawlings
 
 ### Clinical Psychologist
@@ -134,24 +135,22 @@ background-size: contain
 
 .pull-left[
 .large[
-[**What is NEAD and FND?**](#what-slide)
-
-[**Why and What is Happening?**](#why-slide)
-
-[**Therapeutic Approach**](#therapeutic-slide)
-
-[**Case Examples**](#examples-slide)
-
-[**Resources**](#resources-slide)
+- [**What is NEAD and FND?**](#what-slide)
+- [**Why and What is Happening?**](#why-slide)
+- [**Therapeutic Approach**](#therapeutic-slide)
+- [**Case Examples**](#examples-slide)
+- [**Resources**](#resources-slide)
 ]
 
-.footnote[Note: **Headings** are internal links.
+.footnote[
+Note: **Headings** are internal links.
+
+A <a href="https://github.com/chris-gaskell/fnd-for-paramedics/blob/main/output/index.pdf">pdf of this presentation</a> `r icons::icon_style(icons::fontawesome("file-pdf", style = "solid"), scale = 1.5, fill = "black")` is also available.
 ]]
 
 .pull-right[
 .footnote[
-This presentation is also available as a
-<a href="https://github.com/chris-gaskell/fnd-for-paramedics/blob/main/output/index.pdf">pdf</a> `r icons::icon_style(icons::fontawesome("file-pdf", style = "solid"), scale = 1.5, fill = "black")`
+
 ]]
 
 ---
@@ -166,9 +165,9 @@ background-size: .3
 --
 
 .left[
-.large[**FND** = Functional Neurological Disorder
-
-**NEAD** = Non Epileptic Attack Disorder
+.large[
+- **FND** = Functional Neurological Disorder
+- **NEAD** = Non Epileptic Attack Disorder
 ]]
 
 --
@@ -198,6 +197,7 @@ background-image: url(files/img/survey-co-occurance.png), url(files/img/survey-v
 background-position:100% 100%, 0% 50%
 background-size: 60% 100%, 40% 65%
 
+<span role="img" aria-label="symptom co-occurance network"></span>
 
 # Symptoms of FND
 
@@ -277,6 +277,8 @@ This is a diagram from the… When thinking about non-epileptic or functional se
 exclude: true
 class: top, left
 
+`r fontawesome::fa("github", a11y = "sem")`
+
 # Epilepsy vs. NEAD
 ### What's the difference?
 
@@ -354,7 +356,7 @@ High rate of comorbidity.
   1. Anxiety and depression 
   1. "Personality disorder"
   1. PTSD/Trauma
-1. More likely to be white, employed and lower SES.
+1. More likely to be **white, employed and lower SES**.
 
 .footnote[
 **More information later on predisposing, precipitating and perpetuating factors.**
