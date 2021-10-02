@@ -54,7 +54,7 @@ xaringanExtra::use_share_again()
 
 
 .left[
-# Functional Seizures & Other Functional Neurological Disorders
+# Functional Seizures & Other Functional Neurological Symptoms
 ]
 
 .pull-left[
@@ -69,7 +69,9 @@ An introduction to working with functional seizures (i.e., NEAD) and other funct
 https://fnd-for-paramedics.netlify.app]
           ]
           
-
+???
+- Welcome
+- Here is the url (for links, videos and up-to-date teaching).
 
 ---
 class: inverse, center, middle
@@ -102,6 +104,9 @@ class: inverse, center, middle
 [`r icons::icon_style(icons::fontawesome("researchgate"), scale = 1.5)`](https://www.researchgate.net/profile/Gregg-Rawlings-3)
 ]
 
+???
+- Introductions
+- How to contact us
 
 ---
 class: top, left, inverse
@@ -110,8 +115,6 @@ background-position: 225% 60%
 background-size: contain
 
 # Disclaimers
-
---
 
 - .Large[Emotionally pertinent areas] `r icons::icon_style(icons::fontawesome("frown-open", style = "solid"), scale = 1.5, fill = "white")` 
 - .Large[Potentially distressing videos] `r icons::icon_style(icons::fontawesome("video", style = "solid"), scale = 1.5, fill = "white")`
@@ -139,7 +142,7 @@ background-size: contain
 - [**Why and What is Happening?**](#why-slide) .blue[10:30-10:30]
 - [**Experience**](#experience-slide) .blue[10:45-11:15]
 - [**Therapeutic Approach**](#therapeutic-slide) .blue[11:15-11:45]
-- [**Case Examples**](#examples-slide) .blue[11.45]
+- [**Case Examples**](#examples-slide) .blue[11.45-12:30]
 - [**Resources**](#resources-slide)
 ]
 
@@ -174,9 +177,15 @@ background-size: .3
 --
 
 .pull-left[
-`r embed_youtube("Dy3XLo7dVQI", width = 475, height = 275) %>% use_start_time("1m00s")`
+`r embed_youtube("Dy3XLo7dVQI", width = 475, height = 275) %>% use_start_time("0m04s")`
 Video by Massachussets General Hospital
 ]
+
+???
+- Brief explanation. epilepsy but without the same underlying electrical processes. Different brain structural changes.
+- Really important because treatments for seizures are not effective for functional seizures.
+- FND is an umbrella term that captures all the different types of seemingly neurological symptoms.
+
 ---
 
 # Definitions: FND
@@ -191,6 +200,10 @@ Video by Massachussets General Hospital
 
 ???
 The term functional has been used to describe symptoms which impacts upon neurological function but which do not have the same underlying pathological abnormality.
+
+???
+- DSM-5 is the main book for classifying and diagnosing psychiatric conditions.
+- 
 
 ---
 class: top, left
@@ -216,6 +229,14 @@ Quite concerning are the rates of co-occurance with other symptoms which are not
 
 From the visual analog clock on the left you can see the responses to a range of questions from people living with FND. Quite interesting is the response to the question "Cause a combination of physical/stress", is very high. This is a little insight as to what people with FND believe the cause of it to be, and based on this it is both physical and stress related.
 
+???
+- Heterogeneity.
+- Co-occurance network. 
+- Biggest survey conducted on FND.
+- 50% of people had seizures. 93% had fatigue!
+- VAS - caused by physical and emotional factors.
+
+
 ---
 class: top, left
 background-image: url(files/img/neurosymptoms-types.png)
@@ -235,12 +256,21 @@ FND takes many shapes and forms. The symptoms that one person experiences for FN
 
 Working in and then EAD service, the people that I see all experience some form of functional seizure. Despite this, the vast majority of patients will also experience another form of functional symptom.
 
+???
+- Pretty much anything neurological!
+- Lots of people presenting to the NEAD service experience other symptoms.
+
+
 ---
 # Definitions: Non-epileptic seizures
 
 - One manifestation or constellation of FND.
 - In DSM-5, functional seizures are classified as a form of conversion disorder, or functional neurological symptom disorder, with the term "functional" referring to an impairment of normal bodily functioning.
 - Disruption of usually integrated functions of consciousness, memory, id, or perception (amnesia, fugue, dissociative id disorder, depersonalisation disorder) (Goldstein et al, 2000)
+
+???
+- conversion disorder seldom used anymore. conversion of emotional distress into physical symptoms. 
+
 
 --
 
@@ -259,7 +289,7 @@ People with NEAD experience **episodes of temporary loss of control and/ or awar
 ```
 
 ???
-As you can see in the table, these are some of the differences between functional seizures and epileptic seizures.
+- As you can see in the table, these are some of the differences between functional seizures and epileptic seizures.
 
 ---
 background-image: url(files/img/tloc-esc.png)
@@ -270,9 +300,7 @@ background-size: contain
 Taken from: <a href="https://www.researchgate.net/publication/323856711_2018_ESC_Guidelines_for_the_diagnosis_and_management_of_syncope">ESC Guidelines for the diagnosis and management of syncope, 2018</a>]
 
 ???
-This is a diagram from the… When thinking about non-epileptic or functional seizures we are often referring to people experiencing a temporary loss of consciousness. Most pacifically on this diagram we are thinking about the psychodynamic causes of transient loss of consciousness.
-
-
+When thinking about non-epileptic or functional seizures we are often referring to people experiencing a temporary loss of consciousness. Most specifically on this diagram we are thinking about the psychological causes of transient loss of consciousness.
 
 ---
 exclude: true
@@ -280,6 +308,7 @@ class: top, left
 
 `r fontawesome::fa("github", a11y = "sem")`
 
+---
 # Epilepsy vs. NEAD
 ### What's the difference?
 
@@ -295,9 +324,9 @@ class: top, left
 ```
 
 ???
-This is a really helpful tool it should be in provided by a recent academic publication.
-It provides a summary of the evidence for various clinical signs in distinguishing between functional seizures and organic seizures.
-Just a caveat, that we are not encouraging you to make a differential diagnosis or to change anything you would usually do in your acute management.
+- This is a really helpful tool it should be in provided by a recent academic publication.
+- It provides a summary of the evidence for various clinical signs in distinguishing between functional seizures and organic seizures.
+- Just a caveat, that we are not encouraging you to make a differential diagnosis or to change anything you would usually do in your acute management.
 
 
 ---
@@ -341,6 +370,7 @@ class: top, centre
 ]
 
 ???
+- Gregg starts here.
 - Because of the complexities around diagnosis, this 20,000 person estimate is likely to be a underestimation.
 –
 
@@ -484,11 +514,11 @@ Many terms used to describe the **same experience**.
 - Pseudo-seizures]
 
 ???
-I think that many people who experience functional symptoms would feel the slide is really important. The language that gets used in referring to these experiences can be highly variable. As you can see on the slide there are a range of different terms which have all been used to describe a very similar experience or set of symptoms.
+- Important slide.
+- The language that gets used in referring to these experiences can be highly variable. As you can see on the slide there are a range of different terms which have all been used to describe a very similar experience or set of symptoms.
 The problem is some of The terms you can see are far less favoured by the FND community, and rightly so. There are unfortunately a lot of unhelpful views, stigmatisation held towards people that have this condition. And therefore some of these terms may. Hold onto those pejorative views.
-There is unfortunately no consensus as to which term is the best, almost accurate.
-
-And this is a topic of high debate currently. Terms which are generally less helpful are pseudoseizures, psychological seizures and conversion disorder.
+- There is unfortunately no consensus as to which term is the best, almost accurate.
+- And this is a topic of high debate currently. Terms which are generally less helpful are pseudoseizures, psychological seizures and conversion disorder.
 
 --
 
@@ -639,8 +669,9 @@ The cause is not medical but the impact on the body is .red[.bolder[REAL]].
 ]
 
 ???
-What we know about the mind and body are that they are, as I'm sure you already know, intrinsically related. How we think and feel can have a huge influence on our body and our visceral experience. On our very relatable set of examples, I'm sure people have had experience of shedding a tear and feeling really sad or heart rate increasing and feeling quite scared or shocked.
-This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any ID and also in treating it we are constantly thinking about this mind body link.
+- What we know about the mind and body are that they are, as I'm sure you already know, intrinsically related.
+- How we think and feel can have a huge influence on our body and our visceral experience. On our very relatable set of examples, I'm sure people have had experience of shedding a tear and feeling really sad or heart rate increasing and feeling quite scared or shocked.
+- This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any NEAD and also in treating it we are constantly thinking about this mind body link.
 
 
 ---
@@ -661,9 +692,10 @@ Although many people with NEAD can identify things that have happened/ are happe
 The reasons why an individual develops NEAD is not always obvious at first, because everyone’s lives are different.
 
 ???
-Trauma is something that gets brought up a lot when discussing functional seizures. Trauma or a traumatic event is an event or incident which includes some form of harm either physical emotional or psychological. This might be a single isolated incident (example car crash). Or it might be a more cumulative effect of lots of little things that happen over time (Example bullying).
-Lots of people with functional symptoms have experienced some form of trauma, however there are also a subset of patients who have not.
-When there is no trauma present, it can leave conditions feeling a little confused as to why the functional symptoms have developed. For some people, there may have been some form of trauma but which can no longer be remembered or is not recognised as being traumatic. For example so I might have had a close family bereavement, and the individual with functional symptoms may feel that this was unrelated to the functional symptoms, however it might be that overtime this is related.
+- Trauma is something that gets brought up a lot when discussing functional seizures. Trauma or a traumatic event is an event or incident which includes some form of harm either physical emotional or psychological.
+- This might be a single isolated incident (example car crash). Or it might be a more cumulative effect of lots of little things that happen over time (Example bullying).
+- Lots of people with functional symptoms have experienced some form of trauma, however there are also a subset of patients who have not.
+- When there is no trauma present, it can leave conditions feeling a little confused as to why the functional symptoms have developed. For some people, there may have been some form of trauma but which can no longer be remembered or is not recognised as being traumatic. For example so I might have had a close family bereavement, and the individual with functional symptoms may feel that this was unrelated to the functional symptoms, however it might be that overtime this is related.
 
 ---
 class: middle, left
@@ -680,9 +712,10 @@ background-size: contain
 
 ???
 
-This is a framework of the different ways that people can experience trauma, and how that can have an impact upon whether or not a person develops functional symptoms.
-Each of these four quadrants show different permutations of how functional seizures might develop.
+- This is a framework of the different ways that people can experience trauma, and how that can have an impact upon whether or not a person develops functional symptoms.
+- Each of these four quadrants show different permutations of how functional seizures might develop.
 In the top left quadrant you have a scenari whereby you might have a biological risk to developing this condition and then they were exposed to a moderate stressful event in childhood and then later in adult there was a moderate precipitating factor.
+- even people with mild biological risk can develop it.
 
 ---
 class: top, left
@@ -715,6 +748,11 @@ class: top, left
 .pull-right[
 `r embed_youtube("lAtW7nJUcRA", width = 800, height = 400) %>% use_start_time("2m54s")`
 ]
+
+???
+- fight-flight theory. sympathetic nervous system.
+- parasymathetic branch of the NS. 
+- Sometimes it can be an adaptive response.
 
 ---
 class: top, left
@@ -1100,8 +1138,8 @@ She tells you that he started to have NEAD episodes 3 years ago when he was livi
 ]
 
 .large[*Taking this information into consideration*:
-1. *Q: How might you change your approach?*
-2. *Q: What might you do the same?*
+1. *Q: What are the helpful things you could do?*
+2. *Q: What are the unhelpful things you could do?*
 ]
 
 ---

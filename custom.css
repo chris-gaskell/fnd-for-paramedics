@@ -56,11 +56,12 @@ svg:hover {
 /*-- LINKS/ANCHORS --*/
 a {
   color: --my-pink;
+  text-decoration: underline;
 }
 
 a:hover {
   color: DarkBlue;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:fa {
