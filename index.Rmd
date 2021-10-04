@@ -669,6 +669,7 @@ The cause is not medical but the impact on the body is .red[.bolder[REAL]].
 ]
 
 ???
+- People often told that it isn't physical - comes as a big shock.
 - What we know about the mind and body are that they are, as I'm sure you already know, intrinsically related.
 - How we think and feel can have a huge influence on our body and our visceral experience. On our very relatable set of examples, I'm sure people have had experience of shedding a tear and feeling really sad or heart rate increasing and feeling quite scared or shocked.
 - This relationship between the mind and body is in a small part A small illustration of what can happen in NEAD. In thinking about any NEAD and also in treating it we are constantly thinking about this mind body link.
@@ -692,6 +693,7 @@ Although many people with NEAD can identify things that have happened/ are happe
 The reasons why an individual develops NEAD is not always obvious at first, because everyone’s lives are different.
 
 ???
+- The magnitude of a trauma is less to do with how severe the event is but how severe it is percieved and processed by the individual. 
 - Trauma is something that gets brought up a lot when discussing functional seizures. Trauma or a traumatic event is an event or incident which includes some form of harm either physical emotional or psychological.
 - This might be a single isolated incident (example car crash). Or it might be a more cumulative effect of lots of little things that happen over time (Example bullying).
 - Lots of people with functional symptoms have experienced some form of trauma, however there are also a subset of patients who have not.
@@ -726,6 +728,8 @@ background-size: 80% 50%
 # Other relevant factors?
 
 - No single factor explaining functional seizures across all patients.
+- There is also interoception and emotional tolerance.
+- avoidance and isolation.
 - People have often (not always) had previous life adversity and stressful life events (e.g., abuse, trauma or neglect).
 - Patients can be experiencing acute and ongoing stress, this could also be related to dysfunctional relationships and attachment difficulties.
 - Formulation figure from
@@ -753,6 +757,7 @@ class: top, left
 - fight-flight theory. sympathetic nervous system.
 - parasymathetic branch of the NS. 
 - Sometimes it can be an adaptive response.
+- A means of responding to a threat or a trigger. mammals. 
 
 ---
 class: top, left
@@ -990,6 +995,11 @@ background-size: 400px 250px, 400px 250px
 Do not attempt to make a differential diagnosis. If information about the diagnosis is not available, follow epilepsy guidelines.
 ]
 
+???
+- Stipulate that this is not about differential diagnosis.
+- Evidence of it being NEAD might be there. But if not then err on the side of caution that it may be epilepsy (it is nead and it is NOT epilepsy).
+- But why do ambulances get called?
+- People around may not be aware of the right way to respond.
 
 ---
 class: top, left
@@ -1050,8 +1060,18 @@ class: top, left
 8. Take me to hospital, unless I have a significant injurt that needs immediate medical attention
 9. try to lift the person up or try to get them moving before they are ready
 10. Ask lots of questions
-
 ]
+
+???
+- People with NEAD may still be able to hear (unlike NEAD
+- idea is that the person gets to the place where they can manage it themselves (not have to go to hospital).
+- No need to have to get people to end it quickly.
+- May be tired and stressed and therefore at higher risk of further episodes.
+- not about differential dx but rather bearing this information in mind. 
+- If you have suspicions or evidence of NEAD then pass it on during your handover to make sure they get the appropriate care.
+- gently re-orienting and offering as they may be confused or be finding it difficult to communicate. 
+
+
 ---
 class: top, left
 # How we talk about NEAD matters
@@ -1071,12 +1091,20 @@ Communication has a significant impact on:
 `r embed_youtube("MA1EYAg9y5k", width =500, height = 450) %>% use_start_time("1m00s")`
 ]
 
+???
+- can impact engagement and future access to treatment.
+- people can get messages that it is all in their head.
+- Episode is less threatening.
+
+
 ---
 
 class: top, left
 # How we talk about NEAD matters
 
 .pull-left[
+## .green[helpful]
+
 “We know your symptoms are real”
 
 “We do not think your symptoms are “all in your head””
@@ -1088,11 +1116,14 @@ class: top, left
 “NEAD is a well-recognised condition”
 
 “It’s like having a software problem in your brain rather than a hardware problem”(Stone)"
-
-“You are (just) stressed”
 ]
 
+
 .pull-right[
+## .red[Unhelpful]
+
+“You are (just) stressed”
+
 “You do not have...”
 
 “It’s nothing to worry about”
@@ -1139,7 +1170,7 @@ She tells you that he started to have NEAD episodes 3 years ago when he was livi
 
 .large[*Taking this information into consideration*:
 1. *Q: What are the helpful things you could do?*
-2. *Q: What are the unhelpful things you could do?*
+2. *Q: What are the unhelpful things you could dop?*
 ]
 
 ---
